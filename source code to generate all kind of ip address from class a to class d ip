@@ -1,0 +1,5 @@
+import random
+def ip():
+    number=random.randint(0,255)
+    return number
+print(f'ip address is >>  {ip()}.{ip()}.{ip()}.{ip()}')
